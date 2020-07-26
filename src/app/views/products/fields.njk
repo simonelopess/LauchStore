@@ -26,9 +26,7 @@
 <div class="item">
     <div>Descrição</div>
     <div>
-        <textarea name="description">
-            {{product.description}}
-        </textarea>
+        <textarea name="description">{{product.description}}</textarea>
     </div>
 </div>
 
@@ -64,7 +62,7 @@
     <div>Disponível?</div>
     <div>
         <span>
-            <input type="radio"
+            <input type="radio",
                     name="status"
                     value="1"
                     {% if product.status == '1' %}        
