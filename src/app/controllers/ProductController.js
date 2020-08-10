@@ -2,7 +2,6 @@ const Category = require('../models/Category');
 const Product = require('../models/Product');
 const { all } = require('../models/Category');
 const { formatPrice } = require('../../lib/utils');
-const { put, delete } = require('../../routes');
 
 module.exports = {
   create(req, res) {
