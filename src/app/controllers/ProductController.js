@@ -68,7 +68,7 @@ module.exports = {
   },
 
   async delete(req, res) {
-    await Product.delete(req.params.id);
+    await Product.delete(req.body.id);
 
     return res.redirect('/products/create');
   },
